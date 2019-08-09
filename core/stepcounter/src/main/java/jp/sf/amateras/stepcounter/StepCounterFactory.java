@@ -343,7 +343,7 @@ public class StepCounterFactory {
                 } else if(fileName.endsWith(".hbh") || fileName.endsWith(".hbs")){
                     // HAHTsite Script
                     // VB用カウンタを作成
-                    return createVBCounter("VB");
+                    return createVBCounter("HAHTsite");
 
 		} else {
 			return null;
